@@ -143,6 +143,10 @@ body {
     margin: 0 auto;
   }
 
+  .cabecalho-menu-item{
+    margin: 0 5px;
+  }
+
   .conteudo-principal {
     display: block;
     margin: 0 auto;
@@ -178,5 +182,17 @@ body {
     margin: 0 auto;
     text-align: center;
     font-size: 16px;
+  }
+
+  .rodape{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .rodape-paragrafo{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
   }
 }
