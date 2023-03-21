@@ -160,10 +160,23 @@ body {
   }
 
   .conteudo-principal-imagem{
+    width: 70%;
+    height: auto;
     display: block;
     margin: 32px auto;
   }
+
+  .conteudo-secundario-titulo{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 18px;
+  }
+
+  .conteudo-secundario-paragrafo{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+  }
 }
-
-
-/*só pra atualizar os arquivos no git*/
