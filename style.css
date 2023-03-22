@@ -143,6 +143,28 @@ body {
   background-color: rgba(236, 214, 196, 0.53);
 }
 
+.conteudo-secundario-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteudo-secundario-contato{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.conteudo-secundario-contato-logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  mix-blend-mode: multiply;
+  width: 50px;
+  padding: 0 12px;
+}
+
 .rodape {
   padding: 32px;
   border-top: 0.4px solid #fff2e7;
