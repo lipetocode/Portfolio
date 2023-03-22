@@ -171,20 +171,20 @@ body {
   }
 
   .conteudo-principal-escrito {
-    padding-top: 18px;
+    padding-top: 56px;
     display: block;
     margin: 0 auto;
     text-align: center;
   }
 
   .conteudo-principal-escrito-subtitulo{
-    padding: 10px;
+    padding: 38px;
   }
 
   .conteudo-principal-escrito-botao{
-    width: 90px;
+    width: 120px;
     height: auto;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .conteudo-principal-imagem{
@@ -209,9 +209,9 @@ body {
   }
 
   .conteudo-secundario-escrito-botao{
-    width: 90px;
+    width: 120px;
     height: auto;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .rodape{
