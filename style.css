@@ -171,14 +171,14 @@ body {
   }
 
   .conteudo-principal-escrito {
-    padding-top: 56px;
+    padding-top: 28px;
     display: block;
     margin: 0 auto;
     text-align: center;
   }
 
   .conteudo-principal-escrito-subtitulo{
-    padding: 38px;
+    padding: 12px;
   }
 
   .conteudo-principal-escrito-botao{
