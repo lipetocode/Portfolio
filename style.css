@@ -191,6 +191,14 @@ body {
   margin-left: 15%;
 }
 
+.conteudo-secundario-contato-logo:hover{
+  transform: scale(1.2);
+}
+
+.conteudo-secundario-contato-logo:hover{
+  transform: scale(1.2);
+}
+
 .rodape {
   padding: 32px;
   border-top: 0.4px solid #fff2e7;
