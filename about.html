@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>lipeTo Code - Portfólio</title>
+	
   </head>
 
   <body>
@@ -44,7 +45,7 @@
         <h3 class="conteudo-secundario-titulo">Quem sou eu?</h3>
         <p class="conteudo-secundario-paragrafo">
           Oi, eu sou o Luis! <br />
-          Tenho 31 anos e sou formado em Análise e Desenvolvimento de Sistemas.
+          Tenho <span id="age"></span> anos e sou formado em Análise e Desenvolvimento de Sistemas.
           <br />
           Atualmente trabalho como Analista de Processos, focado na parte
           financeira/contábil de um grupo de empresas focado no sistema
@@ -59,5 +60,17 @@
     <footer class="rodape">
       <p class="rodape-paragrafo">&copy; Luis Lima, 2023.</p>
     </footer>
+    
+	<script>
+		function getAge(){
+			var birthdate = new Date(1991, 3, 26,0,0,0,0);
+			var now = new Date();
+			let age =  Math.floor((now - birthdate)/1000/60/60/24/365);
+			console.log(age);
+			document.getElementById("age").innerHTML = age;
+			
+		};
+		getAge();
+    </script>
   </body>
 </html>
